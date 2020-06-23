@@ -1,0 +1,31 @@
+{
+  "name": "Acme-Users-TDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "./node_modules/.bin/node-dev --respawn ./server/api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickcarr51/Acme-Users-TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickcarr51/Acme-Users-TDD/issues"
+  },
+  "homepage": "https://github.com/nickcarr51/Acme-Users-TDD#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-dev": "^4.0.0",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.13"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
